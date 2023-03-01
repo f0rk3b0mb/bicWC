@@ -1,0 +1,2 @@
+# bicWC
+bic wintercon writeups
