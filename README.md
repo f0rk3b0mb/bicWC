@@ -1,5 +1,5 @@
 
-# bicWC misc challange
+# bicWC misc challenge
 
 this is the writeup of the misc challange rated easy in bicWC
 
