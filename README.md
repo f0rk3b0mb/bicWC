@@ -16,7 +16,7 @@ How many packets have been captured?
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-28-48.png)
 
 the number of packets is shown at the  right bottom of the screenshot above > 1309
 
@@ -38,7 +38,7 @@ we will use an online iplocator tool?
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-37-57.png)
 
 
 the city is amsterdam
@@ -49,7 +49,7 @@ here we just us the dns filter in wireshark
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-39-57.png)
 
 
 the answer is two there is one with ip xxx.100 and xxx.101
@@ -73,7 +73,7 @@ here will follow the tcp steam of one of the requests to the attacker as shown b
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-45-38.png)
 
 
 the machineis is a parameter of the post requests
@@ -91,7 +91,7 @@ we just have to double click on one of the tcp packets between the attacker and 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-50-18.png)
 
 
 what email address os the registrar of the ip address?
@@ -103,7 +103,7 @@ here we will conduct a whois serch on the ip address, to make work even easier w
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-53-54.png)
   
   
   
