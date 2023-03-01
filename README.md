@@ -8,7 +8,7 @@ this is the writeup of the misc challange rated easy in bicWC
 
 when the challange is started there is a download called capture.zip , its contents are a pcap file.
 
-if you dont know pcap files a captured network packets so we are going to use wireshark. You can open the file using wireshark by typing <wireshark capture.pcap> in terminal.
+if you dont know pcap files a captured network packets so we are going to use wireshark. You can open the file using wireshark by typing "wireshark capture.pcap" in terminal.
 
 
 once wireshark is open the first question ,
@@ -16,7 +16,6 @@ once wireshark is open the first question ,
 How many packets have been captured?
 
 
-## Screenshots
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-28-48.png)
 
@@ -28,7 +27,7 @@ What is the ip address of the attacker?
 
 here we will use the tcp filter in wireshark as shown below
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-09-44.png)
 
@@ -38,7 +37,7 @@ Which city is the ip addresss based?
 
 we will use an online iplocator tool?
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-37-57.png)
 
@@ -49,7 +48,7 @@ How many dns servers sre in the pcap?
 
 here we just us the dns filter in wireshark 
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-39-57.png)
 
@@ -62,7 +61,7 @@ What if the ip of the ntp server?
 
 here we will use the ntp filter in wireshark
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-09-52.png)
 
@@ -73,7 +72,7 @@ What machine is was transmitted to the attacker?
 here will follow the tcp steam of one of the requests to the attacker as shown below  this time we will use the ip address filter <ip.addr == 45.15.156.72>
 
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-45-38.png)
 
@@ -91,7 +90,7 @@ we just have to double click on one of the tcp packets between the attacker and 
 
 
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-50-18.png)
 
@@ -103,7 +102,7 @@ here we will conduct a whois serch on the ip address, to make work even easier w
 
 
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-53-54.png)
   
@@ -124,7 +123,7 @@ when the challenge is started there is a download of an apk file
 first things first we decompile the apk
 
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-20-48.png)
 
@@ -132,7 +131,7 @@ i use the flags -s -r to ensure the  dex files are left untouched this is becaus
 
 after decompiling we get the following files
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-19-57.png)
 
@@ -152,27 +151,27 @@ the links to get the following below
 
 first we decompile the .dex files using dex 2 jar and then view the jar files using jdgui as shown below
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-27-01.png)
 
 repeat the command for all the dex files , in the end we will have  the following jar files
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
 
 
 you will then have to open them using jdgui, at this point i struggled to find the flag not having enough knowledge in mobile forensics , anyways when i opened the classes3-dex2jar.jar  i found the flag in the mainactivity files
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-31-16.png)
 
 
 there is a base64 encoded string , we decode it an find the flag
 
-## Screenshots
+
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-32-25.png)
 
