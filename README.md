@@ -154,20 +154,20 @@ first we decompile the .dex files using dex 2 jar and then view the jar files us
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-27-01.png)
 
 repeat the command for all the dex files , in the end we will have  the following jar files
 
 ## Screenshots
 
-![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-27-01.png)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
 
 
 you will then have to open them using jdgui, at this point i struggled to find the flag not having enough knowledge in mobile forensics , anyways when i opened the classes3-dex2jar.jar  i found the flag in the mainactivity files
 
 ## Screenshots
 
-![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-31-16.png)
 
 
 there is a base64 encoded string , we decode it an find the flag
