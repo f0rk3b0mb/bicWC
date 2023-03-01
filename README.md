@@ -28,7 +28,7 @@ here we will use the tcp filter in wireshark as shown below
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-09-44.png)
 
 the ip is 45.15.156.72
 
@@ -62,7 +62,7 @@ here we will use the ntp filter in wireshark
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-09-52.png)
 
 the ip address as you can see above is 51.145.123.29
 
