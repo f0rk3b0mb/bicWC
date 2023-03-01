@@ -147,8 +147,8 @@ at this point you will need the following tools:
 
 the links to get the following below 
 
-http://java-decompiler.github.io/
-
+[jdgui](http://java-decompiler.github.io/)
+[dex2jar](https://gitlab.com/kalilinux/packages/dex2jar)
 
 first we decompile the .dex files using dex 2 jar and then view the jar files using jdgui as shown below
 
@@ -174,7 +174,7 @@ there is a base64 encoded string , we decode it an find the flag
 
 ## Screenshots
 
-![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-32-25.png)
 
 
 although i started the challenge no expectations turns out it was easy  
