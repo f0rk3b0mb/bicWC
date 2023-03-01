@@ -33,7 +33,7 @@ here we will use the tcp filter in wireshark as shown below
 
 the ip is 45.15.156.72
 
-Which city is the ip addresss based?
+Which city is the ip address based?
 
 we will use an online iplocator tool?
 
@@ -44,7 +44,7 @@ we will use an online iplocator tool?
 
 the city is amsterdam
 
-How many dns servers sre in the pcap?
+How many dns servers are in the pcap?
 
 here we just us the dns filter in wireshark 
 
@@ -56,7 +56,7 @@ here we just us the dns filter in wireshark
 the answer is two there is one with ip xxx.100 and xxx.101
 
 
-What if the ip of the ntp server?
+What is the ip of the ntp server?
 
 
 here we will use the ntp filter in wireshark
@@ -67,7 +67,7 @@ here we will use the ntp filter in wireshark
 
 the ip address as you can see above is 51.145.123.29
 
-What machine is was transmitted to the attacker?
+What machineid is was transmitted to the attacker?
 
 here will follow the tcp steam of one of the requests to the attacker as shown below  this time we will use the ip address filter <ip.addr == 45.15.156.72>
 
@@ -77,11 +77,11 @@ here will follow the tcp steam of one of the requests to the attacker as shown b
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2007-45-38.png)
 
 
-the machineis is a parameter of the post requests
+the machineid is a parameter of the post requests
 
 What is the user-agent?
 
-as you can see from the picture above the user agent is xxx
+as you can see from the picture above the user agent is "x"
 
 What was the mac address os the compromised machine?
 
@@ -127,7 +127,7 @@ first things first we decompile the apk
 
 ![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-20-48.png)
 
-i use the flags -s -r to ensure the  dex files are left untouched this is because the smali format that apktool uses is hard to read and understarnd especially for a nood like me :)
+i use the flags -s -r to ensure the  dex files are left untouched this is because the smali format that apktool uses is hard to read and understarnd especially for a noob like me :)
 
 after decompiling we get the following files
 
@@ -144,9 +144,11 @@ at this point you will need the following tools:
 - jdgui
 - dex2jar
 
-the links to get the following below 
+the links to get the following below :
 
 [jdgui](http://java-decompiler.github.io/)
+
+
 [dex2jar](https://gitlab.com/kalilinux/packages/dex2jar)
 
 first we decompile the .dex files using dex 2 jar and then view the jar files using jdgui as shown below
