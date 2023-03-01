@@ -1,6 +1,8 @@
 
 # bicWC misc challenge
 
+credit :p3rf3ctr00t_ke
+
 this is the writeup of the misc challange rated easy in bicWC
 
 
@@ -109,4 +111,72 @@ here we will conduct a whois serch on the ip address, to make work even easier w
   
  the above challenge was rated easy ,it is also a good entry to learning to use wireshark and understanding networking
   
-  GOODBYE:)
+  
+  
+# bicWC mobile challenge
+
+mobile forensics/reversing writeup
+
+
+when the challenge is started there is a download of an apk file
+, i am not a mobile challenge person , but it was rated easy so i gave it a go :)
+
+first things first we decompile the apk
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-20-48.png)
+
+i use the flags -s -r to ensure the  dex files are left untouched this is because the smali format that apktool uses is hard to read and understarnd especially for a nood like me :)
+
+after decompiling we get the following files
+
+## Screenshots
+
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-19-57.png)
+
+
+our main focus will be the files with the extension .dex 
+
+
+at this point you will need the following tools:
+
+- jdgui
+- dex2jar
+
+the links to get the following below 
+
+http://java-decompiler.github.io/
+
+
+first we decompile the .dex files using dex 2 jar and then view the jar files using jdgui as shown below
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+repeat the command for all the dex files , in the end we will have  the following jar files
+
+## Screenshots
+
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-27-01.png)
+
+
+you will then have to open them using jdgui, at this point i struggled to find the flag not having enough knowledge in mobile forensics , anyways when i opened the classes3-dex2jar.jar  i found the flag in the mainactivity files
+
+## Screenshots
+
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
+
+
+there is a base64 encoded string , we decode it an find the flag
+
+## Screenshots
+
+![App Screenshot](https://github.com/p0pparaz1/bicWC/blob/main/Screenshot%20from%202023-03-01%2008-28-12.png)
+
+
+although i started the challenge no expectations turns out it was easy  
+
+GOODBYE :)
